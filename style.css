@@ -19,6 +19,7 @@ header{
     height: 60px;
 }
 main{
+    padding: 100px 50px 50px 50px;
     height: 2000px;
 }
 .header{
@@ -37,6 +38,9 @@ main{
     align-items: center;
     height: 60px;
     
+}
+.header_fixed{
+    height: 60px;
 }
 #header_input{
     width: 300px;
