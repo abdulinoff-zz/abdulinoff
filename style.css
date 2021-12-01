@@ -28,6 +28,7 @@ main{
 
 }
 .header_logo{
+    margin-top: 5px;
     height: 40px;
 }
 .header_ver{
@@ -67,6 +68,5 @@ main{
     transition: 0.2s;
 }
 #header_menu > a:hover{
-    border-bottom: 4px solid #FFFFFF;
-    border-radius: 2px;
+    opacity: 0.4;
 }
