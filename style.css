@@ -174,3 +174,49 @@ hr{
 .main_buttom_shop:hover{
     opacity: 0.5;
 }
+@media screen and (max-width: 1100px) {
+    .main_sel{
+        display: grid;
+        
+    }
+    .main_img_logo{
+        display: grid;
+        justify-content: center;
+    }
+    .main_img{
+        width: 100%;
+    }
+    .main_rating{
+        width: 100%;
+        
+    }
+    .main_text{
+        margin: 20px 0 0 0;
+    }
+    .main_buttom{
+        display: grid;
+        justify-content: center;
+    }
+    .main_buttom > a{
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .main_buttom > a > div{
+        width: 100%;
+    }
+    .main_buttom_shop{
+        margin-top: 20px;
+    }
+    main{
+        padding: 50px 50px 50px 50px;
+    }
+    .header{
+        justify-content: center;
+        
+    }
+    .header_ver > div > a{
+        display: none;
+    }
+}
