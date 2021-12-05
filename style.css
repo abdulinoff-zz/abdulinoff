@@ -234,21 +234,53 @@ hr{
     .header_ver > div > a{
         display: none;
     }
+    #header_menu{
+        display: none;
+    }
     .headermenu {
         display: block;
     }
     .main_header{
+        background: none;
         margin: 20px 0 20px 0;
-        padding: 20px 30px 20px 30px;
+        padding: 0 20px;
         border-radius: 0;
         box-sizing: border-box;
+        justify-content: left;
     }
     .main_header > span{
         display: none;
     }
     .main_input{
+        display: inline;
+        position:relative;
+        width: 25px;
+        background: #FFF;
+        border-radius: 30px;
+        border: 3px solid #d0d0d0;
+        padding: 20px;
+        font-size: 20px;
         margin-left: 0;
-
+        transition: 0.2s;
+        outline: none;
+        font-family: SF Pro Display;
+        letter-spacing: 2px;
+        font-weight: normal;
+        color: #FFF;
+    }
+    .main_input:focus{
+        width: 100%;
+        background: #FFF;
+        border: 3px solid #d0d0d0;
+        padding: 20px 60px;
+        color: #3b3b3b;
+        font-weight: bold;
+    }
+    .main_input::placeholder{
+        opacity: 0.5;
+        color: rgb(72, 72, 72);
+        font-size: 20px;
+        font-weight: bold;
     }
     .main_sel{
         display: grid;
@@ -277,7 +309,6 @@ hr{
         display: grid;
         justify-content: center;
     }
-    
     .main_rating{
         width: 100%;
         margin-top: 0;
