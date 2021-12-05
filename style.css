@@ -47,7 +47,7 @@ hr{
     border: none;
     font-size: 30px;
     height: 100%;
-    
+    width: 0;
 }
 .headermenu {
     display: none;
@@ -252,13 +252,11 @@ hr{
         display: none;
     }
     .main_input{
-        display: inline;
-        position:relative;
-        width: 25px;
+        width: 100%;
         background: #FFF;
         border-radius: 30px;
         border: 3px solid #d0d0d0;
-        padding: 20px;
+        padding: 10px 20px;
         font-size: 20px;
         margin-left: 0;
         transition: 0.2s;
@@ -269,10 +267,9 @@ hr{
         color: #FFF;
     }
     .main_input:focus{
-        width: 100%;
-        background: #FFF;
+        background: #d0d0d0;
         border: 3px solid #d0d0d0;
-        padding: 20px 60px;
+        padding: 10px 20px;
         color: #3b3b3b;
         font-weight: bold;
     }
