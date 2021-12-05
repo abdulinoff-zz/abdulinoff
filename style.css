@@ -33,7 +33,6 @@ hr{
     display: flex;
     justify-content: space-between;
     width: 1600px;
-    
 }
 .header_logo{
     margin-top: 5px;
@@ -180,22 +179,28 @@ hr{
     main{
         padding: 0;
     }
+    header{
+        padding: 0;
+    }
     .header{
         justify-content: center;
+        width: 100%;
     }
     .header_ver > div > a{
         display: none;
     }
     .main_header{
         margin: 20px 0 20px 0;
+        padding: 20px 30px 20px 30px;
         border-radius: 0;
+        box-sizing: border-box;
     }
     .main_header > span{
         display: none;
     }
     .main_input{
         margin-left: 0;
-        
+
     }
     .main_sel{
         display: grid;
@@ -203,10 +208,12 @@ hr{
         margin: 0 20px 50px 20px;
     }
     .main_img{
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
     .main_img_logo{
-        width: auto;
+        width: 100%;
     }
     .main_rating{
         font-size: 15px;
