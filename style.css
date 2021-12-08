@@ -95,6 +95,52 @@ hr{
 #header_menu > a:hover{
     opacity: 0.4;
 }
+.block_search{
+    display: grid;
+    align-items: center;
+    grid-gap: 1em;
+    padding: 40px 60px;
+    background: #fff;
+}
+.search{
+    background: #f1f1f1;
+    border-radius: 30px;
+    border: 15px solid #f1f1f1;
+    outline: none;
+    letter-spacing: 2px;
+}
+.search:focus{
+    color: #3b3b3b;
+}
+.search::placeholder{
+    color: #b4b4b4;
+    font-size: 20px;
+}
+.search_h1_r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_rating_block{
+    background: #52ac62;
+    
+}
+.search_rating_b{
+    color: #fff;
+}
+.block_h1{
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.search_rating{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 2em;
+}
+.search_rating_block{
+    padding: 10px 20px;
+}
 .main_header{
     background: #52ac62;
     display: flex;
