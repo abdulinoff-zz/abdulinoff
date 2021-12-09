@@ -201,6 +201,8 @@ hr{
 }
 #main_h11{
     border-radius: 120px;
+    width: 200px;
+    
 }
 #rating{
     margin-top: 20px;
@@ -215,7 +217,7 @@ hr{
     font-size: 50px;
 }
 .main_img_logo{
-    width: 200px;
+    width: 300px;
 }
 .main_rating{
     text-align: center;
