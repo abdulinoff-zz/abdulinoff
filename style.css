@@ -40,7 +40,6 @@ hr{
     margin-top: 5px;
     height: 40px;
 }
-
 .headermenulist {
     display: grid;
     justify-content: center;
@@ -680,7 +679,6 @@ hr{
     }
     .search_rating_block{
         background: #52ac62;
-        
     }
     .search_rating_b{
         color: #fff;
