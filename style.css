@@ -29,11 +29,11 @@ body{
     color: #fff;
 }
 .bg{
+
     position: absolute;
-    object-fit: cover;
     height: 100vh;
     width: 100%;
-    background: url(img/bg.jpg) no-repeat;
+    background: url(img/bg.jpg) no-repeat top center fixed;
     background-size: cover;
     z-index: -1000;
 }
@@ -57,7 +57,10 @@ body{
 .container{
     margin: 0 auto;
     width: 1150px;
-    padding: 0 3vw;
+    padding: 0 25px;
+}
+.header_logo_img{
+    height: 80px;
 }
 .header_row{
     display: flex;
@@ -65,9 +68,7 @@ body{
     align-items: center;
     height: 100px;
 }
-.header_logo_img{
-    height: 80px;
-}
+
 .menu_body{
     display: flex;
     gap: 40px;
@@ -80,25 +81,26 @@ body{
 .main_column{
     display: grid;
     gap: 20px;
-    max-width: 40%;
+    text-align: center;
+    justify-content: center;
     margin-top: 100px;
 }
 .main_h1{
     display: flex;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 60px;
     line-height: 0.8;
 }
-.main_h2{
-    font-size: 1vw;
+.button{
+    margin-top: 30px;
 }
 .button_link{
+    margin: 0 auto;
     display: grid;
-    padding: 0.5vw 2vw;
+    padding: 10px 60px;
     width: max-content;
     border: 2px solid #fff;
     background: #fff;
-    font-size: 1vw;
   
 }
 .button_link:hover{
